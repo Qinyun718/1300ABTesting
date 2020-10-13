@@ -37,6 +37,15 @@ header {
 
 .content-pane {
   padding: 40px;
+}
+.button-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-pane-b {
+  padding: 40px;
   display: flex;
   flex-direction: row;
   justify-content: center;
