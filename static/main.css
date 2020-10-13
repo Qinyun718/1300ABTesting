@@ -14,11 +14,21 @@ header {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
+.vendor-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .vendor-photo {
 	max-width: 200px;
-	max-height: 150px;
+	max-height: 100px;
 	padding-right: 20px;
+  padding-bottom: 20px;
+}
+.vendor-button{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .vendor-book-button {
@@ -27,6 +37,10 @@ header {
 
 .content-pane {
   padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-stack[data-count]:after{
